@@ -97,9 +97,9 @@ export const config: Options.Testrunner = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-        // "goog:chromeOptions": {
-        //     args: ["--headless"]
-        // },
+        "goog:chromeOptions": {
+            args: ["--headless"]
+        },
         
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
